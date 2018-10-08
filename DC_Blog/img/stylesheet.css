@@ -20,6 +20,7 @@ ul.menu {
 
 ul.menu li {
     display: inline;
+    padding-inline-end: 20px;
 }
 
 .title {
@@ -44,4 +45,21 @@ button {
 .maintext {
     margin-left: 150px;
     margin-right: 150px;
+}
+
+hr {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+ul.lowermenu {
+    list-style: none;
+    padding: 0;
+    float: left;
+    margin-left: 150px;
+}
+
+ul.lowermenu li {
+    display: inline;
+    padding-inline-end: 10px;
 }
