@@ -1,0 +1,53 @@
+.flexcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+}
+
+.columnleft {
+    width: 25%;
+    background-color: gray;
+    height: auto;
+    color: white;
+}
+
+.columnright {
+    width: 75%;
+    height: auto;
+    padding-left: 20px;
+}
+
+input {
+    background-color: gray;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+/* how to make placeholder input appear white? */
+/* how to make links white */
+
+ul.menu {
+    list-style: none;
+    padding: 0;
+    float: left;
+}
+
+.menu li {
+    padding-bottom: 20px;
+}
+
+.menu a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.heading {
+    font-size: 40px;
+}
+
+.textbox {
+    background-color: #D3D3D3;
+    color: #A9A9A9;
+}
