@@ -1,0 +1,72 @@
+.flexcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+    text-align: center;
+}
+
+.firstsection {
+    padding: 20px;
+    background-image: url("img/atl.png");
+    background-size: contain;
+    color: white;
+}
+
+.toplinks {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.toplinks li {
+    padding-inline-end: 40px;
+    display: inline;
+    list-style: none;
+    font-size: 10px;
+}
+
+.firstsection img {
+    padding-top: 40px;
+}
+
+#logo {
+    clear: both;
+}
+
+
+.secondsection {
+    padding: 20px;
+}
+
+.flexcontainer2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.flexcontainer3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    text-align: center;
+}
+
+.card {
+    width: 200px;
+}
+
+footer {
+    background-color: gray;
+    padding: 20px;
+}
+
+footer li {
+    padding-inline-end: 40px;
+    display: inline;
+    list-style: none;
+}
